@@ -37,7 +37,58 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
 <ol>
   <li>Clone the repository:</li>
   ```bash
-  eyyyy
-
-  wesh
+    git clone https://github.com/Brahim-maaqoul/hypertube.git
+    cd hypertube
+  ```
+  <li>Install dependencies for both frontend and backend:</li>
+  ```bash
+    cd frontend
+    npm install
+    cd ../backend
+    pip install -r requirements.txt
+  ```
+  <li>Set up backend environment variables:</li>
+  <p>Create a '.env' file in the backend directory and add the following:</p>
+  ```bash
+    SECRET_KEY=your_django_secret_key
+    DEBUG=True
+    ALLOWED_HOSTS=localhost,127.0.0.1
+    DATABASE_URL=your_postgresql_database_uri
+    TMDB_API_KEY=your_tmdb_api_key
+    ```
+  <li>Apply migrations and create a superuser:</li>
+  ```bash
+    cd backend
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py createsuperuser
+    ```
+  <li>Seed database (optional):</li>
+  ```bash
+    python manage.py seed
+  ```
+  <li>Start the development servers:</li>
+  ```bash
+    cd frontend
+    ng serve
+    cd ../backend
+    python manage.py runserver
+  ```
 </ol>
+
+  Visit http://localhost:4200 in your browser to access the Angular frontend.
+  <br>
+  <h3>Usage</h3>
+  <ul>
+    <li>Register an account or login if you already have one.</li>
+    <li>Search for movies using the search bar or browse through categories.</li>
+    <li>Click on a movie to view details and start streaming.</li>
+    <li>Leave comments and ratings on movies.</li>
+    <li>Explore user profiles and their activity.</li>
+  </ul>
+  <br>
+
+  <h3>Contributing</h3>
+  Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
+
+  
