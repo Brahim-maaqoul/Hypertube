@@ -4,4 +4,4 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
 
 <h2>Table of Contents</h2>
 
-#Features
+Features
