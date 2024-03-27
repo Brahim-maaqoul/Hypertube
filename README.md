@@ -17,13 +17,16 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
 
 <h3>Technologies Used</h3>
 <ul>
-  <li><h5>Frontend:</h5></li>
+  <li><h4>Frontend:</h4></li>
+  <ul>
   <li>Angular</li>
   <li>Angular Material for UI components</li>
   <li>Angular Router for routing</li>
   <li>RxJS for handling asynchronous operations</li>
   <li>TypeScript for static typing</li>
-  <li><h5>Backend:</h5></li>
+  </ul>
+  <li><h4>Backend:</h4></li>
+  <ul>
   <li>Django</li>
   <li>Django REST Framework for building APIs</li>
   <li>Django ORM for database operations</li>
@@ -31,6 +34,7 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
   <li>Django Channels for WebSocket communication</li>
   <li>PostgreSQL for database storage</li>
   <li>TMDB API for movie data</li>
+  </ul>
 </ul>
 <h3>Installation</h3>
 <ol>
