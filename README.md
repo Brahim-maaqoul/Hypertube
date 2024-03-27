@@ -36,5 +36,8 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
 <h3>Installation</h3>
 <ol>
   <li>Clone the repository:</li>
-  ```git```
+  ```bash
+  eyyyy
+
+  wesh
 </ol>
