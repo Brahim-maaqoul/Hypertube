@@ -14,3 +14,27 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
   <li>Rating system for users to rate movies</li>
   <li>User profile page to view personal information and activity</li>
 </ul>
+
+<h3>Technologies Used</h3>
+<ul>
+  <li><h5>Frontend:</h5></li>
+  <li>Angular</li>
+  <li>Angular Material for UI components</li>
+  <li>Angular Router for routing</li>
+  <li>RxJS for handling asynchronous operations</li>
+  <li>TypeScript for static typing</li>
+  <li><h5>Backend:</h5></li>
+  <li>Django</li>
+  <li>Django REST Framework for building APIs</li>
+  <li>Django ORM for database operations</li>
+  <li>Django Rest Auth for authentication</li>
+  <li>Django Channels for WebSocket communication</li>
+  <li>PostgreSQL for database storage</li>
+  <li>TMDB API for movie data</li>
+</ul>
+
+<h3>Installation</h3>
+<ol>
+  <li>Clone the repository:</li>
+  `eeey`
+</ol>
