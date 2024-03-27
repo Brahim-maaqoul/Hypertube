@@ -90,7 +90,4 @@ Hypertube is a web application developed as part of the curriculum at 42 Network
     <li>Explore user profiles and their activity.</li>
   </ul>
 
-  <h3>Contributing</h3>
-    Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
-
   
